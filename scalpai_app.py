@@ -2,6 +2,7 @@
 import streamlit as st
 from PIL import Image
 import random
+model = load_model("scalpai_model.h5")
 st.info("✅ Using model: scalpai_model.h5 (trained version)")
 
 st.set_page_config(page_title="ScalpAI", layout="centered")
