@@ -1,5 +1,4 @@
 # App updated with new model
-model = load_model("scalpai_model.h5")
 import streamlit as st
 from PIL import Image
 import random
