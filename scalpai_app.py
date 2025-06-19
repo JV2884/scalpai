@@ -1,4 +1,4 @@
-
+# App updated with new model
 import streamlit as st
 from PIL import Image
 import random
