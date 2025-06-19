@@ -2,6 +2,7 @@
 import streamlit as st
 from PIL import Image
 import random
+st.info("✅ Using model: scalpai_model.h5 (trained version)")
 
 st.set_page_config(page_title="ScalpAI", layout="centered")
 st.title("📈 ScalpAI - 1-Min Chart Predictor")
