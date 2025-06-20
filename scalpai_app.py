@@ -12,7 +12,7 @@ uploaded_file = st.file_uploader("Upload your chart screenshot", type=["jpg", "j
 
 if uploaded_file:
     image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded Chart", use_column_width=True)
+    st.image(image, use_container_width=True)
 
     # 🔮 Mock prediction (will replace with AI model)
     prediction = random.choice(["📈 UP - Buy", "📉 DOWN - Sell"])
